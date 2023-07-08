@@ -81,11 +81,29 @@ nav a{
     font-weight: 700;
 }
  /* main section style */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
  /* about section style */
  .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+ }
+ .about_info_container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about_inf{
+    text-align: center;
+ }
+ .about_inf>h4{
+    color: rgb(147, 142, 142);
+ }
+ .about_inf>p{
+    color: rgb(10, 10, 10);
+    font-weight: bold;
  }
  
