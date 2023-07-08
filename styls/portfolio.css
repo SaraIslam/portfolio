@@ -1,6 +1,7 @@
 /* shared style */
 body{
     font-family: 'Open Sans', sans-serif;
+    background: #f8f7f7;
 }
 nav{
     display: flex;
@@ -88,7 +89,6 @@ nav a{
  /* about section style */
  .about{
     padding: 130px;
-    border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
  }
@@ -105,5 +105,19 @@ nav a{
  .about_inf>p{
     color: rgb(10, 10, 10);
     font-weight: bold;
+ }
+ #what_i_do_description{
+    padding: 30px 130px;
+ }
+ .skills_container{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .skill{
+    padding: 20px;
+    width: 22%;
+    justify-content: space-between;
+    background: #fff;
  }
  
