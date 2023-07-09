@@ -1,7 +1,7 @@
 /* shared style */
 body{
     font-family: 'Open Sans', sans-serif;
-    background: #f8f7f7;
+    /* background: #f8f7f7; */
 }
 nav{
     display: flex;
@@ -86,6 +86,9 @@ nav a{
     max-width: 1140px;
     margin: 0 auto;
  }
+ main section{
+    margin-top: 130px;
+ }
  /* about section style */
  .about{
     padding: 130px;
@@ -106,6 +109,8 @@ nav a{
     color: rgb(10, 10, 10);
     font-weight: bold;
  }
+
+ /* skills related style */
  #what_i_do_description{
     padding: 30px 130px;
  }
@@ -118,6 +123,39 @@ nav a{
     padding: 20px;
     width: 22%;
     justify-content: space-between;
-    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* background: #fff; */
  }
- 
+ .skill_description{
+    color:#757575;
+ }
+
+
+ /* resime section style */
+ .resume_container{
+    display: flex;
+    gap: 50px;
+ }
+ .resume_column_title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .resume_item_title{
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+.resume_item_description, .resume_item_institute{
+    color: #757575;
+}
+.resume_item_institute{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.download_cv{
+    text-align: center;
+    margin-top: 50px;
+}
